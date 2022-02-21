@@ -1,0 +1,31 @@
+download visual studio and mingw
+    -https://code.visualstudio.com/docs/cpp/config-mingw
+    (write vs code with mingw)on google
+    -visual code
+        -c/cpp extension
+    -set bin folder of mingw path after downloading it
+-open VS code- "code . or code" in cmd
+-download mingw uing above link
+-"packman Syu" in cmd to update to latest version of mingw
+-"packman -Su" command in MSYS2 app
+-install some tools and the mingw-w64 GCC to start compiling
+    -"pacman -S --needed base-devel mingw-w64-x86_64-toolchain" in cmd
+    -now set path to C:\msys64\mingw64\bin in environment variables
+
+compile and run
+-cd.. previous folder
+- mkdir to create folder, del to delete file,
+- to compile code -> g++ "file name".C
+- executable file will be created write its name to run it
+- #include<bits/stdc++.h> add many header
+-g++ helloworld.cpp -o hello to create executable file named hello other then just a.
+
+github
+-download git windows install
+    -unclear use git from bash only if is marked while installation
+    -git init to initialise repository
+    -git add . to create a checkpoint
+    -git commit -m" message like its initialized"
+    -git remote add origin https://github.com/nakul498/cppwork.git
+    -git push -u origin master
+
