@@ -1,0 +1,12 @@
+linked list
+-push
+    -   node * new_node=NULL;
+        new_node->data=value;
+        new_node->link=top;
+        top=new_node;
+-pop
+    -   node * new_node=New node();
+        new_node->link=top;
+        top=top->link;
+        
+        
