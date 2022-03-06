@@ -1,3 +1,7 @@
 -function overloading
 - call by ref, value,add
--
+-default value for to find max would be INTMIN   
+-shortcuts
+    -ALT+click coursor will me there even multiple cursors
+    -Alt+ctrl + arrows i.e. multiple cursors
+    -Alt+tab shitch tabs '                                                     
