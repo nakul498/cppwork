@@ -1,0 +1,21 @@
+wild pointer
+    -are uninitialized pointer
+    -they point some arbitrary memory location and may cause a program to crash or bahave badly
+    -we can give nullptr to not to make misake / crash your pc
+-null pointer
+    -is pointer which is pointing to mothing.if we dont have address to assign to a pointer use null
+    -int* ptr = nullptr; or =NULL 
+multidimentional Arrays 
+    1D array - contiguous collectoin of data 
+        contiguous means without any gap
+    2D array - contiguous collection of 1D array
+    4073D array- it is an array where each element is 4072D array
+    
+    3D:1D array of 2D Arrays
+                    |            
+                    it is 1D array of 1D Arrays
+                           |
+                           it is contiguous collection of data
+how to define 
+arr[size of first level i.e lenght of 3d array]   [sizr of 2nd level] [size of 3rd level]
+                      
